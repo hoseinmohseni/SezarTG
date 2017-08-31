@@ -11,7 +11,9 @@ end
     local data = load_data(_config.moderation.data)
   if data[tostring(msg.chat_id_)] then
 if not lang then
-   return '_Group is already added_'
+   return '_Group is already added_
+
+ ✨ @Sezar_Hack ✨'
 else
 return 'گروه در لیست گروه های مدیریتی ربات هم اکنون موجود است'
   end
@@ -2997,6 +2999,9 @@ _Send Msg To All Groups_
 _set Auto leave_
 
 _You Can Use_ *[!/#]* _To Run The Commands_
+
+✨خرید و سفارش ربات :‌@sezar_hack   ✨
+✨سازنده ربات : @sezar_hack   ✨
 ]]
 
 elseif lang then
@@ -3022,6 +3027,10 @@ text = [[
 در حال حاضر زبان ربات فارسی میباشد برای تغییر زبان دستور زیر را ارسال کنید
 *!setlang en*
 ...
+
+✨خرید و سفارش ربات :‌@sezar_hack   ✨
+✨سازنده ربات : @sezar_hack   ✨
+
 ]]
 end
 return text
@@ -3034,50 +3043,54 @@ text2 = [[
 
 
 💬 قفل کردن لینک گروه ها
-🔒*!lock link*
-🔓*!unlock link*
+🔒قفل لینک
+🔓باز کردن لینک
 〰〰〰〰〰
 💬 قفل کردن یوزرنیم
-🔒*!lock tag*
-🔓*!unlock tag*
+🔒قفل تگ
+🔓باز کردن تگ
 〰〰〰〰〰
 💬 قفل کردن متن فارسی و عربی
-🔒*!lock arabic*
-🔓*!unlock arabic*
+🔒قفل عربی
+🔓باز کردن عربی
 〰〰〰〰〰
 💬 قفل کردن لینک سایت ها
-🔒*!lock webpage*
-🔓*!unlock webpage*
+🔒قفل وبسایت
+🔓باز کردن وبسایت
 〰〰〰〰〰
 💬 جلوگیری از ویرایش متن
-🔒*!lock edit*
-🔓*!unlock edit*
+🔒قفل ویرایش
+🔓باز کردن ویرایش
 〰〰〰〰〰
 💬 جلوگیری از وارد کردن ربات
-🔒*!lock bots*
-🔓*!unlock bots*
+🔒قفل ربات
+🔓باز کردن ربات
 〰〰〰〰〰
 💬 قفل پیام های طولانی
-🔒*!lock spam*
-🔓*!unlock spam*
+🔒قفل اسپم
+🔓باز کردن اسپم
 〰〰〰〰〰
 💬 قفل پیام های رگباری
-🔒*!lock flood*
-🔓*!unlock flood*
+🔒قفل فلود
+🔓باز کردن فلود
 〰〰〰〰〰
 💬 قفل بولد و ایتالیک متن
-🔒*!lock markdown*
-🔓*!unlock markdown*
+🔒قفل فونت
+🔓باز کردن فونت
 〰〰〰〰〰
 💬 قفل هایپرلینک
-🔒*!lock mention*
-🔓*!unlock mention*
+🔒قفل هایپرلینک
+🔓باز کردن هایپرلینک
 〰〰〰〰〰
 💬 قفل فحش
-🔒*!lock fosh*
-🔓*!unlock fosh*
+🔒قفل فحش
+🔓باز کردن فحش
 〰〰〰〰〰
+در زدن دستورات به فاصله حروف دقت کنید
 ...
+
+✨خرید و سفارش ربات :‌@sezar_hack   ✨
+✨سازنده ربات : @sezar_hack   ✨
 ]]
 return text2
 end
@@ -3088,71 +3101,75 @@ text3 = [[
 
 
 💬 ارسال گیف ممنوع
-🔇*!mute gif*
-🔊*!unmute gif*
+🔇ممنوعیت گیف
+🔊رفع ممنوعیت گیف
 〰〰〰〰〰
 💬 ارسال عکس ممنوع
-🔇*!mute photo*
-🔊*!unmute photo*
+🔇ممنوعیت عکس
+🔊رفع ممنوعیت عکس
 〰〰〰〰〰
 💬 ارسال فایل ممنوع
-🔇*!mute document*
-🔊*!unmute document*
+🔇ممنوعیت فایل
+🔊رفع ممنوعیت فایل
 〰〰〰〰〰
 💬 ارسال استیکر ممنوع
-🔇*!mute sticker*
-🔊*!unmute sticker*
+🔇ممنوعیت استیکر
+🔊رفع ممنوعیت استیکر
 〰〰〰〰〰
 💬 ارسال ویدیو ممنوع
-🔇*!mute video*
-🔊*!unmute video*
+🔇ممنوعیت فیلم
+🔊رفع ممنوعیت فیلم
 〰〰〰〰〰
 💬 ارسال متن ممنوع
-🔇*!mute text*
-🔊*!unmute text*
+🔇ممنوعیت متن
+🔊رفع ممنوعیت متن
 〰〰〰〰〰
 💬 ارسال فوروارد ممنوع
-🔇*!mute forward*
-🔊*!unmute forward*
+🔇ممنوعیت فوروارد
+🔊رفع ممنوعیت فوروارد
 〰〰〰〰〰
 💬 ارسال بازی به گروه
-🔇*!mute game*
-🔊*!unmute game*
+🔇ممنوعیت بازی
+🔊رفع ممنوعیت بازی
 〰〰〰〰〰
 💬 ارسال مکان ممنوع
-🔇*!mute location*
-🔊*!unmute location*
+🔇ممنوعیت مکان
+🔊رفع ممنوعیت مکان
 〰〰〰〰〰
 💬 ارسال موزیک ممنوع
-🔇*!mute audio*
-🔊*!unmute audio*
+🔇ممنوعیت موزیک
+🔊رفع ممنوعیت موزیک
 〰〰〰〰〰
 💬 ارسال فایل ضبط شده ممنوع
-🔇*!mute voice*
-🔊*!unmute voice*
+🔇ممنوعیت صدا
+🔊رفع ممنوعیت صدا
 〰〰〰〰〰
 💬 ارسال اطلاعات تماس ممنوع
-🔇*!mute contact*
-🔊*!unmute contact*
+🔇ممنوعیت اطلاعات تماس
+🔊رفع ممنوعیت اطلاعات تماس
 〰〰〰〰〰
 💬 اعلانات گروه ممنوع
-🔇*!mute tgservices*
-🔊*!unmute tgservices*
+🔇ممنوعیت اعلانات
+🔊رفع ممنوعیت اعلانات
 〰〰〰〰〰
 💬 ارسال تبلیغات شیشه ای ممنوع
-🔇*!mute inline*
-🔊*!unmute inline *
+🔇ممنوعیت اینلاین
+🔊رفع ممنوعیت اینلاین
 〰〰〰〰〰
 💬 همه چیز ممنوع
-🔇*!mute all*
-🔊*!unmute all*
+🔇ممنوعیت همه چیز
+🔊رفع ممنوعیت همه چیز
 〰〰〰〰〰
 💬 میوت تایم دار
 عدد اول ساعت عدد دوم دقیقه
-🔇*!mt 0 1*
-🔊*!unmt*
+🔇!mt 0 1
+🔊!unmt
 〰〰〰〰〰
+در زدن دستورات به فاصله حروف دقت کنید
 ...
+
+✨خرید و سفارش ربات :‌@sezar_hack   ✨
+✨سازنده ربات : @sezar_hack   ✨
 ]]
 return text3
 end
@@ -3165,109 +3182,114 @@ text4 = [[
 ➰شما میتوانید از '/' یا '!' یا '#' برای اجرای دستورات استفاده کنید.
 
 〰〰〰〰〰
-🔰 *!settings*
+🔰 تنظیمات
 💬 نمایش تنظیمات گروه
 〰〰〰〰〰
-🔕 *!silentlist*
+🔕 لیست سایلنت
 💬 نمایش لیست سایلنت شده ها
 〰〰〰〰〰
-🔕 *!banlist*
+🔕 لیست مسدود
 💬 نمایش لیست مسدود شده ها
 〰〰〰〰〰
-👑 *!ownerlist*
+👑 لیست مدیران
 💬 نمایش لیست مدیران
 〰〰〰〰〰
-🤖 *!modlist*
+🤖 لیست ناظران
 💬 نمایش لیست ناظران
 〰〰〰〰〰
-🎖 *!gpinfo*
+🎖 اطلاعات گروه
 💬 نمایش اطلاعات گروه
 〰〰〰〰〰
-👑 *!setowner* `[username|id|reply]` 
+👑 انتخاب مدیر [username|id|reply] 
 💬 تعیین مدیر اصلی گروه
 〰〰〰〰〰
-👑 *!remowner* `[username|id|reply]` 
+👑 حذف مدیر [username|id|reply] 
 💬 حذف مدیر اصلی 
 〰〰〰〰〰
-🤖 *!promote* `[username|id|reply]`
+🤖 انتخاب ناظر [username|id|reply]
 💬 تعیین ناظر گروه
 〰〰〰〰〰
-🤖 *!demote* `[username|id|reply]` 
+🤖 حذف ناظر [username|id|reply] 
 💬 حذف ناظر گروه
 〰〰〰〰〰
-🗣 *!setflood* `[1-50]`
+🗣 تنظیم فلود [1-50]
 💬 تعیین میزان مجاز پست های رگباری
 〰〰〰〰〰
-🔹 *!res* `[username]`
-🔹 *!id* `[reply]`
+🔹 رس [username]
+🔹 ایدی [reply]
 💬 نمایش آیدی یوزر 
 〰〰〰〰〰
-🔹 *!whois* `[id]`
+🔹 چه کسی [id]
 💬 نمایش یوزر آیدی
 〰〰〰〰〰
-🔕 *!silent* `[username|id|reply]`
-🔔 *!unsilent* `[username|id|reply]`
+🔕 سایلنت [username|id|reply]
+🔔 رفع سایلنت [username|id|reply]
 💬  ساکت کردن یک کاربر
 〰〰〰〰〰
-👊 *!kick* `[username|id|reply]`
+👊 اخراج [username|id|reply]
 💬 اخراج کردن یک کاربر
 〰〰〰〰〰
-👊 *!ban* `[username|id|reply]`
-✋ *!unban* `[username|id|reply]`
+👊 مسدود کردن [username|id|reply]
+✋️ رفع مسدودیت [username|id|reply]
 💬  مسدود کردن یک کاربر
 〰〰〰〰〰
-✍ *!setlink*
-🔹 *!link* نمایش لینک
-✍ *!setrules* قوانین را بنویسید
-🔹 *!rules* نمایش قوانین
+✍️ !تنظیم لینک
+🔹 لینک نمایش لینک
+✍️ تنظیم قوانین قوانین را بنویسید
+🔹 قوانین نمایش قوانین
 💬  ثبت لینک و قوانین و نمایش آنها
 〰〰〰〰〰
-🚿 *!clean bans*
-💬  پاک کردن لیست مسدود شده ها
-〰〰〰〰〰
-🚿 *!clean rules*
+🚿 !پاک کردن قوانین
 💬  پاک کردن قوانین گروه
 〰〰〰〰〰
-🚿 *!clean silentlist*
+🚿 پاک کردن لیست سایلنت
 💬  پاک کردن لیست سایلنت شده ها
 〰〰〰〰〰
-📍 *!pin* `[reply]`
-📍 *!unpin* 
+📍 سنجاق کردن [reply]
+📍 حذف سنجاق 
 💬 سنجاق کردن متن در گروه
 〰〰〰〰〰
-🚫 *!filter* 
-🚫 *!unfilter* 
+🚫 فیلتر 
+🚫 رفع فیلتر 
 💬 فیلتر کلمات
-🚫 *!filterlist* 
+🚫 لیست فیلتر 
 💬 نمایش لیست فیلتر
 〰〰〰〰〰
-♻️ *!del* 1-100
-♻️ *!delall* `[reply]`
-💬 حذف پیام های گروه حداکثر 100
-〰〰〰〰〰
-⏱ *!setexpire*  30
-⏱ *!expire*
-💬 تنظیم انقضای گروه
-〰〰〰〰〰
-🎗*!setwelcome* متن پیام
-➕*!welcome enable*
-➖*!welcome disable*
+🎗تنظیم ولکام متن پیام
+➕ولکام نصب
+➖ولکام حذف
 💬 ست کردن و فعال و غیرفعال کردن خوش آمد گویی
 〰〰〰〰〰
-📣 *!broadcast* متن پیام
+♻️ !del 1-100
+♻️ !delall [reply]
+💬 حذف پیام های گروه حداکثر 100
+〰〰〰〰〰
+⏱ !setexpire  30
+⏱ !expire
+💬 تنظیم انقضای گروه
+〰〰〰〰〰
+📣 !broadcast متن پیام
 💬 ارسال یک پیام به همه گروهایی که ربات مدیر است
 〰〰〰〰〰
-⚙*!autoleave enable*
-⚙*!autoleave disable*
+⚙️!autoleave enable
+⚙️!autoleave disable
 💬 تنظیم خارج شدن ربات
 ...
+در زدن دستورات به فاصله حروف دقت کنید
+〰〰〰〰〰
+✨خرید و سفارش ربات :‌@sezar_hack   ✨
+
+✨سازنده ربات : @sezar_hack   ✨
 ]]
 return text4
 end
 
 if matches[1] == "انلاینی" and is_mod(msg) then
 text5 = [[
-😎آنلاینم عزیز و حواسم به گروه هست 
+😎آنلاینم عزیز و حواسم به گروه هست
+
+✨خرید و سفارش ربات :‌@sezar_hack   ✨
+✨سازنده ربات : @sezar_hack   ✨ 
 ]]
 return text5 
 end
@@ -3441,7 +3463,5 @@ run=run,
 pre_process = pre_process
 }
 -- کد های پایین در ربات نشان داده نمیشوند
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
+-- http://et-chata.rozblog.com
+-- @sezar_hack
