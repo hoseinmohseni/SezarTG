@@ -35,6 +35,6 @@ return {
   run = run,
   pre_process = pre_process
 }
--- http://permag.ir
--- @permag_ir
--- @permag_bots
+-- کد های پایین در ربات نشان داده نمیشوند
+-- http://et-chata.rozblog.com
+-- @sezar_hack
