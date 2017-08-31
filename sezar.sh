@@ -37,3 +37,4 @@ fi
    ./tg/tgcli -s ./bot/bot.lua $@
 fi
 
+
